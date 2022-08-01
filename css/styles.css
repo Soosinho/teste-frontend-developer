@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(170, 193, 194);
+}
+
+#information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+}
+#information .whatsapp {
+  font-size: 1.8em;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-inline: 1em;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+#event-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#product {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+#product h1 {
+  font-size: 4em;
+}
+#product p {
+  font-size: 2em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 450px;
+  max-width: 600px;
+  border-radius: 22px;
+}
+#form p {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#form .form-group, #form .form-group-desc {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid black;
+  border-radius: 6px;
+  margin: 14px 0;
+  padding: 10px;
+  height: 32px;
+  width: 300px;
+}
+#form .form-group label, #form .form-group-desc label {
+  white-space: nowrap;
+  font-size: 1.4em;
+}
+#form .form-group input, #form .form-group textarea, #form .form-group-desc input, #form .form-group-desc textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  resize: none;
+  margin: 2px;
+}
+#form .form-group-desc {
+  height: 140px;
+  flex-direction: column;
+}
+#form .form-group-desc label {
+  align-self: flex-start;
+}
+#form .btn {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  font-size: 1.4em;
+  justify-content: center;
+  text-align: center;
+  border-radius: 6px;
+  border: 1px solid black;
+  padding: 8px;
+}/*# sourceMappingURL=styles.css.map */
