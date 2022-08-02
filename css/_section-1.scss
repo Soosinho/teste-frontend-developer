@@ -7,7 +7,7 @@
     width: 100%;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(170, 193, 194);
+    background-color: $primary-color;
 }
 
 #information {
@@ -29,6 +29,13 @@
         border-radius: 10px;
         margin: 10px;
     }
+
+    i {
+        margin-right: 6px;
+    }
+    img {
+        margin-top: 6px;
+    }
 }
 
 #event-description {
@@ -44,10 +51,12 @@
     color: white;
     justify-content: center;
     align-items: center;
-    max-width: 800px;
+    max-width: 850px;
+    margin-right: 80px;
 
     h1{
         font-size: 4em;
+        color: white;
     }
     p {
         font-size: 2em;
@@ -75,7 +84,7 @@
         display: flex;
         align-items: center;
         justify-content: left;
-        border: 1px solid black;
+        border: 1px solid $tertiary-color;
         border-radius: 6px;
         margin: 14px 0;
         padding: 10px;
@@ -112,7 +121,15 @@
         justify-content: center;
         text-align: center;
         border-radius: 6px;
-        border: 1px solid black;
+        border: none;
         padding: 8px;
+        background-color: $secondary-color;
+        cursor: pointer;
+        transition: 0.4s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn:hover {
+        background-color: rgba($secondary-color, .7);
     }
 }
