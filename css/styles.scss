@@ -2,6 +2,8 @@ $primary-color: #abd699;
 $secondary-color: #c7ddcc;
 $tertiary-color: #29236d;
 
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,8 +13,51 @@ $tertiary-color: #29236d;
     font-family: 'Montserrat', sans-serif;
 }
 
+/*
+
+Header
+
+*/
 @import 'section-1';
+
+/*
+
+About us
+
+*/
 @import 'section-2';
+
+/*
+
+Services
+
+*/
 @import 'section-3';
+
+/*
+
+FAQ
+
+*/
 @import 'section-4';
+
+/*
+
+Last Call
+
+*/
 @import 'section-5';
+
+/*
+
+Footer
+
+*/
+@import 'section-6';
+
+/*
+
+Mobile Responsive
+
+*/
+@import 'mobile-responsive';
