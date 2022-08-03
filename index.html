@@ -7,27 +7,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Uma landing page para processo seletivo">
     <title>Landing Page</title>
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">  
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+      </script>
+
+    <!-- Header -->
     <header id="section-1">
-        <div id="information">
+        <div id="information"  data-aos="fade-down" data-aos-delay="1600" data-aos-duration="800">
             <img src="imgs/logo1.png" alt="logo" width="180px" height="100px">
             <p class="whatsapp"><i class="bi bi-whatsapp"></i>(11) 91346-2552</p>
         </div>
         <div id="event-description">
             <div id="product">
-                <h1>Estilize seu negócio! Do jeito que você precisa com a melhor qualidade.</h1>
-                <p>Com a Solle Design, tudo fica mais fácil e rápido.</p>
+                <h1  data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">Estilize seu negócio! Do jeito que você precisa com a melhor qualidade.</h1>
+                <p  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="800">Com a Solle Design, tudo fica mais fácil e rápido.</p>
             </div>
-            <div id="form">
+            <div id="form" data-aos="fade-left" data-aos-delay="1600" data-aos-duration="800">
                 <p>Entre em contato!</p>
                 <form>
                     <div class="form-group">
@@ -51,53 +62,57 @@
             </div>
         </div>
     </header>
+
+    <!-- About-us -->
     <section id="section-2">
         <div class="image"></div>
         <div id="about-us">
-            <h1>Quem Somos:</h1>
-            <p>&nbsp;&nbsp;&nbsp; Nós da Solle Design desenvolvemos sites e aplicações web, sempre visando na melhor qualidade e desempenho para nossos clientes.<br/> 
+            <h1 data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-anchor="#about-us">Quem Somos:</h1>
+            <p data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000" data-aos-anchor="#about-us">&nbsp;&nbsp;&nbsp; Nós da Solle Design desenvolvemos sites e aplicações web, sempre visando na melhor qualidade e desempenho para nossos clientes.<br/> 
                 &nbsp;&nbsp;&nbsp; A mais de 10 anos no mercado, atendendo pessoas de todo o Brasil.</p>
         </div>
     </section>
+
+    <!-- Benefits -->
     <section id="section-3">
         <h1>Nós oferecemos:</h1>
         <ul id="benefits">
-            <li>
+            <li data-aos="fade-right" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#benefits">
                 <p><i class="bi bi-star"></i></p>
                 <div>
                     <h2>Alta Qualidade</h2>
                     <p>Serviço da melhor qualidade que você pode imaginar.</p>
                 </div>
             </li>
-            <li>
+            <li data-aos="fade-left" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#benefits">
                 <p><i class="bi bi-truck"></i></p>
                 <div>
                     <h2>Entrega Rápida</h2>
                     <p>Nossos profissionais são muito bem treinados para te oferecer um serviço rápido.</p>
                 </div>
             </li>
-            <li>
+            <li data-aos="fade-right" data-aos-delay="1000" data-aos-duration="800" data-aos-anchor="#benefits">
                 <p><i class="bi bi-arrow-repeat"></i></p>
                 <div>
                     <h2>Atualizações</h2>
                     <p>Atualizaremos de forma gratuita seu site sempre que você precisar.</p>
                 </div>
             </li>
-            <li>
+            <li data-aos="fade-left" data-aos-delay="1000" data-aos-duration="800" data-aos-anchor="#benefits">
                 <p><i class="bi bi-patch-check"></i></p>
                 <div>
                     <h2>Confiabilidade</h2>
                     <p>Garantimos que você não vai se arrepender!</p>
                 </div>
             </li>
-            <li>
+            <li data-aos="fade-right" data-aos-delay="1400" data-aos-duration="800" data-aos-anchor="#benefits">
                 <p><i class="bi bi-bar-chart-line"></i></p>
                 <div>
                     <h2>Performance</h2>
                     <p>Além da qualidade, também oferecemos alta performance para sua aplicação.</p>
                 </div>
             </li>
-            <li>
+            <li data-aos="fade-left" data-aos-delay="1400" data-aos-duration="800" data-aos-anchor="#benefits">
                 <p><i class="bi bi-code-slash"></i></p>
                 <div>
                     <h2>Simplicidade</h2>
@@ -107,16 +122,20 @@
         </ul>
         <input type="button" value="Quero fazer parte!" class="btn" onClick="document.getElementById('section-1').scrollIntoView({ block: 'end',  behavior: 'smooth' });"/>
     </section>
+
+    <!-- FAQ -->
     <section id="section-4">
         <h1>Perguntas frequentes</h1>
         <ul id="questions">
-            <li>Qual o prazo mínimo de entrega?</li>
-            <li>Qual a garantia que vou ter melhorias no meu negócio?</li>
-            <li>Posso escolher todos os elementos do site?</li>
-            <li>A empresa também faz design de logotipo?</li>
-            <li>Quando vou começar a ver o resultado das minhas campanhas?</li>
+            <li data-aos-anchor="#questions" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">Qual o prazo mínimo de entrega?</li>
+            <li data-aos-anchor="#questions" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">Qual a garantia que vou ter melhorias no meu negócio?</li>
+            <li data-aos-anchor="#questions" data-aos="fade-right" data-aos-delay="800" data-aos-duration="1000">Posso escolher todos os elementos do site?</li>
+            <li data-aos-anchor="#questions" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000">A empresa também faz design de logotipo?</li>
+            <li data-aos-anchor="#questions" data-aos="fade-right" data-aos-delay="1200" data-aos-duration="1000">Quando vou começar a ver o resultado das minhas campanhas?</li>
         </ul>
     </section>
+
+    <!-- Last Call -->
     <section id="section-5">
         <div id="last-call">
             <h1>Chegou até aqui e ainda não entrou em contato?</h1>
@@ -128,6 +147,8 @@
             <p>Nossos especialista vão entrar em contato com você ainda hoje!</p>
         </div>
     </section>
+
+    <!-- Footer -->
     <footer id="section-6">
         <p>Solle Design © Todos os Direitos Reservados - 2022</p>
         <p>CNPJ 99.999.999 - 0009-99 • TERMOS DE USO</p>

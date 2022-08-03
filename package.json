@@ -4,19 +4,16 @@
   "description": "A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "start": "npx lite-server"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Soosinho/teste-frontend-developer.git"
   },
-  "author": "",
+  "author": "Matheus Okamoto Soós",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Soosinho/teste-frontend-developer/issues"
   },
-  "homepage": "https://github.com/Soosinho/teste-frontend-developer#readme",
-  "dependencies": {
-    "node-sass": "^7.0.1"
-  }
+  "homepage": "https://github.com/Soosinho/teste-frontend-developer#readme"
 }
