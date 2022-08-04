@@ -1,12 +1,12 @@
 # **Teste Frontend**
 
----
+
 
 # **Projeto**
 
     O projeto foi desenvolvido apenas em **HTML**, **CSS** e **Javascript**, utilizando o pré-processador para CSS, o **SASS**. A finalidade principal foi de criar uma **Landing Page** apresentando os serviços de uma empresa fictícia chamada **Solle Design**, uma desenvolvedora de sites e aplicações web.
 
----
+
 
 # **Instalar e rodar**
 
@@ -38,7 +38,7 @@ npx lite-server
 
 E por fim, acessar em seu browser [http://localhost:3000](http://localhost:3000)
 
----
+
 
 # **Funcionalidades**
 
@@ -74,13 +74,13 @@ O site também possui uma sessão de Perguntas Frequentes, com algumas dúvidas 
 
 A última sessão da página contém um botão que novamente leva o usuário para o formulário como uma última chamada, caso o usuário tenha se interessado na página e tenha lido tudo.
 
----
+
 
 # Animações
 
     Para as animações foi utilizado a [AOS - Animate on scroll library](https://michalsnik.github.io/aos/), uma biblioteca que contém diversas animações para páginas web.
 
----
+
 
 # Complementos
 
