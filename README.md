@@ -1,53 +1,87 @@
-# Teste para estágio Frontend e Full-Stack
+# **Teste Frontend**
 
-## Sobre a Ellos Design
+---
 
-A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.
+# **Projeto**
 
-## Sobre o teste
+    O projeto foi desenvolvido apenas em **HTML**, **CSS** e **Javascript**, utilizando o pré-processador para CSS, o **SASS**. A finalidade principal foi de criar uma **Landing Page** apresentando os serviços de uma empresa fictícia chamada **Solle Design**, uma desenvolvedora de sites e aplicações web.
 
-Este é um teste prático que desenvolvemos para a avaliação dos candidatos participantes de nosso processo seletivo para vagas de Frontend ou Full-Stack.
+---
 
-## Tecnologias para o desafio
+# **Instalar e rodar**
 
-Você deve utilizar as seguintes tecnologias para o desenvolvimento do teste:
+    Utilizando o **Firebase Hosting** da **Google**, o site foi hospedado externamente e pode ser acessado entrando na url:
 
-- HTML5
-- CSS
-- JavaScript ou jQuery
-- PHP (Para Full-Stack)
-- MySQL (Para Full-Stack)
+<https://teste-landingpage-bc89e.web.app>
 
-## O que nos impressionaria no teste
+Caso prefira utilizar um servidor local utilizando o **lite-server**, siga os próximos passos:
 
-- Utilização de um pré-processador para o CSS (De preferência o Sass)
-- Aplicação de animações em CSS (Ex: Animações ao realizar scroll)
-- Ver o teste rodando em live (Bucket estático S3, Heroku, Firebase Hosting, etc)
-- Documentação do projeto (Com instruções para executar)
+    Após baixar ou clonar o projeto pelo github, navegar pelo terminal até a pasta do projeto e utilizar os seguintes comandos:
 
-## O que avaliaremos no seu teste
+##### Instalar as dependências:
 
-- Criatividade
-- Organização do código
-- Performance do código
-- Boas práticas de desenvolvimento
-- Documentação do código
-- Adaptação mobile (layout responsivo)
-- Documentação do projeto (Com instruções para executar)
+```
+npm install
+```
 
-## Etapas para realização do teste
+#### Rodar o projeto:
 
-- Faça um [fork](https://github.com/Ellos-Design/teste-frontend-developer/fork) desse projeto em sua conta do GitHub
-- Realize o desafio proposto
-- Faça um push para seu repositório com o desafio implementado
-- Envie um email para (vagas@ellosdesign.com.br) com a URL do seu projeto avisando que você concluiu o teste
+```
+npm start
 
-## O desafio
 
-Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.
+ou
 
-#### Full-Stack
 
-Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados (Neste caso será necessário nos enviar o arquivo SQL para podermos implementar o banco para avaliação do teste).
+npx lite-server
+```
 
-![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
+E por fim, acessar em seu browser [http://localhost:3000](http://localhost:3000)
+
+---
+
+# **Funcionalidades**
+
+O site possui cinco sessões:
+
+- Formulário
+
+- Sobre Nós
+
+- Benefícios
+
+- FAQ
+
+- Última chamada
+
+#### Formulário
+
+No formulário temos algumas informações de contato, uma breve explicação da finalidade da Landing Page e um formulário para o usuário entrar em contato com a empresa e contratar os serviços.
+
+#### Sobre nós
+
+Esta sessão fala um pouco sobre a empresa, introduzindo uma foto dos integrantes.
+
+#### Benefícios
+
+Aqui temos uma lista de serviços que a empresa oferece, e um botão no fim da sessão que leva o usuário até o formulário.
+
+#### FAQ
+
+O site também possui uma sessão de Perguntas Frequentes, com algumas dúvidas recorrentes dos clientes.
+
+#### Última chamada
+
+A última sessão da página contém um botão que novamente leva o usuário para o formulário como uma última chamada, caso o usuário tenha se interessado na página e tenha lido tudo.
+
+---
+
+# Animações
+
+    Para as animações foi utilizado a [AOS - Animate on scroll library](https://michalsnik.github.io/aos/), uma biblioteca que contém diversas animações para páginas web.
+
+---
+
+# Complementos
+
+    Para os ícones foi utilizada a biblioteca **Bootstrap Icons**, e a fonte utilizada foi a **Montserrat** da **Google Fonts**.
