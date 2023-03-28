@@ -4,7 +4,7 @@
 
 # **Projeto**
 
-    O projeto foi desenvolvido apenas em **HTML**, **CSS** e **Javascript**, utilizando o pré-processador para CSS, o **SASS**. A finalidade principal foi de criar uma **Landing Page** apresentando os serviços de uma empresa fictícia chamada **Solle Design**, uma desenvolvedora de sites e aplicações web.
+    O projeto foi desenvolvido apenas em **HTML**, **CSS** e **Javascript**, utilizando o pré-processador para CSS, o **SCSS**. A finalidade principal foi de criar uma **Landing Page** apresentando os serviços de uma empresa fictícia chamada **Solle Design**, uma desenvolvedora de sites e aplicações web.
 
 
 
